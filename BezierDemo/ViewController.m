@@ -134,7 +134,7 @@
     
     CATextLayer *text = [CATextLayer layer];
     
-    CGFloat size = 48;
+    CGFloat size = _shapeView.frame.size.width * 0.05;
     CGFloat width = size * 6;
     CGFloat height = size * 1.25 * numberOfLines;
     
@@ -333,7 +333,8 @@
     CGRect frame = [self getShapeFrame];
     
     CGPoint point = CGPointMake(frame.origin.x + frame.size.width/2,frame.origin.y);
-    CGFloat distance = 192;
+    //CGFloat distance = 192;
+    CGFloat distance = MIN(_shapeView.frame.size.width,_shapeView.frame.size.height) * 0.25;
     
     UIBezierPath *path = [UIBezierPath bezierPath];
     
@@ -369,8 +370,8 @@
     CGRect frame = [self getShapeFrame];
     
     CGPoint point = CGPointMake(frame.origin.x,frame.origin.y + frame.size.height/2);
-    CGFloat distance = 192;
-    
+    CGFloat distance = MIN(_shapeView.frame.size.width,_shapeView.frame.size.height) * 0.25;
+
     UIBezierPath *path = [UIBezierPath bezierPath];
     
     // 10 lines to outline the double ended arrow
