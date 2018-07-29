@@ -14,6 +14,9 @@
 		4CA374FD210B83220028D208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA374FC210B83220028D208 /* Assets.xcassets */; };
 		4CA37500210B83220028D208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA374FE210B83220028D208 /* LaunchScreen.storyboard */; };
 		4CA37503210B83220028D208 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA37502210B83220028D208 /* main.m */; };
+		4CEFF0B6210E361A00F9D5CF /* bezierdemo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CEFF0B4210E361900F9D5CF /* bezierdemo1.png */; };
+		4CEFF0B7210E361A00F9D5CF /* bezierdemo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CEFF0B5210E361900F9D5CF /* bezierdemo2.png */; };
+		4CEFF0B9210E362700F9D5CF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4CEFF0B8210E362700F9D5CF /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		4CA374FF210B83220028D208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CA37501210B83220028D208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CA37502210B83220028D208 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CEFF0B4210E361900F9D5CF /* bezierdemo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bezierdemo1.png; sourceTree = "<group>"; };
+		4CEFF0B5210E361900F9D5CF /* bezierdemo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bezierdemo2.png; sourceTree = "<group>"; };
+		4CEFF0B8210E362700F9D5CF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 		4CA374EF210B83200028D208 /* BezierDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4CEFF0B8210E362700F9D5CF /* README.md */,
+				4CEFF0B4210E361900F9D5CF /* bezierdemo1.png */,
+				4CEFF0B5210E361900F9D5CF /* bezierdemo2.png */,
 				4CA374F0210B83200028D208 /* AppDelegate.h */,
 				4CA374F1210B83200028D208 /* AppDelegate.m */,
 				4CA374F3210B83200028D208 /* ViewController.h */,
@@ -131,7 +140,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CEFF0B9210E362700F9D5CF /* README.md in Resources */,
 				4CA37500210B83220028D208 /* LaunchScreen.storyboard in Resources */,
+				4CEFF0B6210E361A00F9D5CF /* bezierdemo1.png in Resources */,
+				4CEFF0B7210E361A00F9D5CF /* bezierdemo2.png in Resources */,
 				4CA374FD210B83220028D208 /* Assets.xcassets in Resources */,
 				4CA374F8210B83200028D208 /* Main.storyboard in Resources */,
 			);
